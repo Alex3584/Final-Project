@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/png" href="images/faviconHP.png">
+  </head>
+  <body>
+    <section class="hero-section section">
+      <div class="container">
+        <h1 class="section-title">Ласкаво просимо у світ Гаррі Поттера</h1>
+        <button class="button" type="button" id="show-all-characters-btn">
+          Показати всіх персонажів
+        </button>
+      </div>
+    </section>
+    <section class="main-section hidden" id="main-section">
+      <div class="container">
+        <article class="card">
+          <img
+            class="card-image"
+            src="./images/content/students.png"
+            alt="Students of Hogwarts"
+          />
+          <button
+            class="button card-button"
+            type="button"
+            id="show-students-btn"
+          >
+            Студенти Гоґвортсу
+          </button>
+        </article>
+        <article class="card">
+          <img
+            class="card-image"
+            src="./images/content/teachers.png"
+            alt="Hogwarts Staff"
+          />
+
+          <button class="button card-button" type="button" id="show-staff-btn">
+            Співробітники Гоґвортсу
+          </button>
+        </article>
+        <article class="card">
+          <img
+            class="card-image"
+            src="./images/content/persons.png"
+            alt="Characters in a certain house"
+          />
+
+          <button
+            class="button card-button"
+            type="button"
+            id="show-characters-btn"
+          >
+            Персонажі в певному будинку
+          </button>
+        </article>
+      </div>
+    </section>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
